@@ -20,6 +20,10 @@ header {
     border-bottom: 1px solid var(--main-color);
 }
 
+.brand-logo-border {
+    cursor: pointer;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,6 +70,8 @@ nav img {
     width: 110px;
     height: 59px;
 
+    cursor: pointer;
+
 }
 
 .article-header-left span {
@@ -79,6 +85,8 @@ nav img {
 
     width: 64px;
     height: 64px;
+
+    cursor: pointer;
 }
 
 .article-body {
@@ -134,6 +142,10 @@ pre {
 
 .article-footer-left {
     display: flex;
+}
+
+.article-footer button {
+    cursor: pointer;
 }
 
 .af-left-item {
@@ -234,6 +246,8 @@ pre {
     overflow: hidden;
 
     background-color: white;
+
+    cursor: pointer;
 }
 
 footer {
